@@ -1,0 +1,14 @@
+# Data: too large for GitHub (see README for where to download)
+*.tfrecord
+*.npy
+Wildfire Data/
+processed_*/
+aria_preprocessed_data/
+
+# Model checkpoints (large, and easy to regenerate)
+*.keras
+
+# System and editor files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
